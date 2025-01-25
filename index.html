@@ -321,10 +321,10 @@ Hugo Profile
                     Pei-Han Hsu.
                 </h2>
                 <h3>
-                    INFO7375 37910 ST Prompt Engineering &amp; AI SEC 02 Spring 2025.
+                    INFO7375 ST Prompt Engineering &amp; AI Spring 2025.
                 </h3>
                 <p class="hero-content">
-                    This demo website is built as part of my assignment - Teach a Prompt Pattern, combining the web development techniques with practical applications of AI and prompt engineering.
+                    This website is built as part of my assignment - Teach a Prompt Pattern, combining the web development techniques with practical applications of AI and prompt engineering.
                 </p>
                 <div class="row">
                     <div class="col-auto h-100">
@@ -621,12 +621,6 @@ Hugo Profile
         <h3 class="text-center bg-transparent">Part 1 - Comprehensive Exploration of the Chosen Prompt Pattern</h3>
         <div class="bg-transparent row justify-content-center px-3 py-5">
             
-            <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
-                <div class="image d-flex px-5">
-                    <img src="/images/me.png" class="img-thumbnail mx-auto rounded-circle" alt="">
-                </div>
-            </div>
-            
             <div class="col-sm-12 col-md-12 col-lg-8 content">
                 A role prompt is a natural language instruction that guides an AI model to respond as if it were a specific persona. For example, instead of simply asking Solve this equation, the prompt might specify You are a math professor explaining this to a high school student. This ensures the AI&rsquo;s response is tailored to the student&rsquo;s level and includes appropriate explanations and examples.
 
@@ -772,6 +766,16 @@ Hugo Profile
                             <div class="pt-2">
                                 <ul>
 <li>Including situational details in the prompt defines the scope and depth of the response.</li>
+<li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>  <span style="color:#f92672">import</span> gpt
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Define the role and situation</span>
+</span></span><span style="display:flex;"><span>  context <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;You are a customer support agent. A customer is unhappy with their recent purchase.&#34;</span>
+</span></span><span style="display:flex;"><span>  prompt <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>context<span style="color:#e6db74">}</span><span style="color:#e6db74"> Write a polite response to address their concerns.&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Generate the response</span>
+</span></span><span style="display:flex;"><span>  response <span style="color:#f92672">=</span> gpt<span style="color:#f92672">.</span>generate(prompt)
+</span></span><span style="display:flex;"><span>  print(response)
+</span></span></code></pre></div></li>
 </ul>
 
                             </div>
@@ -850,7 +854,16 @@ Hugo Profile
 
                                 
                                 <div class="py-1 education-content">
-                                    It helps generate responses that are specific to the given context or role, improving relevance and meeting user expectations more effectively.
+                                    <p>It helps generate responses that are specific to the given context or role, improving relevance and meeting user expectations more effectively.</p>
+<ol>
+<li>Contextual Relevance: Assigning roles like doctor or teacher ensures responses match the situation and user needs.</li>
+<li>Personalized Experience: Tailored replies create more engaging and meaningful interactions, like a healthcare chatbot offering clear advice.</li>
+<li>Task Precision: Keeps responses focused on specific queries, such as handling only refund-related questions.</li>
+<li>Consistency: Maintains a uniform tone and style, important for professional or brand communication.</li>
+<li>Adaptability: Fits various uses, from customer service to education, by customizing responses based on roles.</li>
+<li>Improved Training: Helps models perform better in specific areas, like legal or medical contexts, through fine-tuned role prompts.</li>
+<li>Integrated Responses: Combines text with visual or other inputs to provide clearer and more relevant answers.</li>
+</ol>
                                 </div>
 
                                 

@@ -521,11 +521,11 @@ header .navbar.animate {
 
 /* experience1*/
 
-#experience1h3 {
+#experience1 h3 {
     color: var(--text-secondary-color) !important;
 }
 
-#experience1* {
+#experience1 * {
     background-color: transparent !important;
 }
 
@@ -576,14 +576,14 @@ header .navbar.animate {
     opacity: 0.8;
 }
 
-#experience1a {
+#experience1 a {
     opacity: 0.9;
     display: inline-block;
     text-decoration: none;
     color: var(--text-link-color) !important;
 }
 
-#experience1a::after {
+#experience1 a::after {
     content: "";
     display: block;
     width: 0px;
@@ -594,7 +594,7 @@ header .navbar.animate {
     opacity: 0.5;
 }
 
-#experience1a:hover::after, #experience1a:focus::after, #experience1a:active::after {
+#experience1 a:hover::after, #experience1 a:focus::after, #experience1 a:active::after {
     width: 100%;
 }
 
